@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Apple AirPods Pro",
+    "description": "",
+    "price": 249.99,
+    "discountPercentage": 0,
+    "rating": 4.5,
+    "stock": 10,
+    "brand": "Apple",
+    "sku": "AAPL-AIRPODPRO-001"
+  },
+  {
+    "id": 2,
+    "title": "Samsung Galaxy Buds Pro",
+    "description": "",
+    "price": 199.99,
+    "discountPercentage": 10,
+    "rating": 4.5,
+    "stock": 20,
+    "brand": "Samsung",
+    "sku": "SM-GALAXYBUDSPRO-001"
+  },
+  {
+    "id": 3,
+    "title": "Google Pixel Buds A-Series",
+    "description": "",
+    "price": 149.99,
+    "discountPercentage": 20,
+    "rating": 4.5,
+    "stock": 30,
+    "brand": "Google",
+    "sku": "GOOGL-PixelBudA-001"
+  },
+  {
+    "id": 4,
+    "title": "Amazon Echo Buds",
+    "description": "",
+    "price": 129.99,
+    "discountPercentage": 30,
+    "rating": 4.5,
+    "stock": 40,
+    "brand": "Amazon",
+    "sku": "AMZN-EchoBud-001"
+  },
+  {
+    "id": 5,
+    "title": "Apple AirPods Max",
+    "description": "",
+    "price": 549.99,
+    "discountPercentage": 0,
+    "rating": 4.5,
+    "stock": 50,
+    "brand": "Apple",
+    "sku": "AAPL-AIRPODMAX-001"
+  }
+]

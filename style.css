@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    overflow: hidden;
+    cursor: pointer; /* Indicate clickable cards */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.card-body {
+    padding: 1rem !important;
+}
+
+.price {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.text-decoration-line-through {
+    margin-right: 0.5rem;
+}
+
+.bg-light {
+    background-color: #f1f3f5 !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.btn-outline-dark {
+    border-width: 2px;
+    padding: 0.25rem 0.75rem;
+}
+
+.btn-outline-dark:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.pagination-sm .page-link {
+    padding: 0.25rem 0.5rem;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+/* Modal styling */
+.modal-body {
+    padding: 1.5rem;
+}
+
+.product-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-detail h5 {
+    margin-bottom: 1rem;
+}
+
+.product-detail .price-detail {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #212529;
+}
+
+.product-detail .discount-price {
+    color: #dc3545;
+    margin-left: 0.5rem;
+}
+
+.product-detail .list-group-item {
+    border: none;
+    padding: 0.5rem 0;
+}
+
+.reviews-section {
+    margin-top: 1.5rem;
+}
+
+.reviews-section h6 {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    .card-body h6 {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 0.95rem;
+    }
+
+    .btn-outline-dark {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .form-select-sm, .form-control {
+        font-size: 0.85rem;
+    }
+
+    .modal-dialog {
+        margin: 0.5rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .card-img-top {
+        height: 180px;
+    }
+
+    .card-body h6 {
+        font-size: 1rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+}
+
+.badge {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.75rem;
+}
+
+.text-center.my-5 h3 {
+    color: #6c757d;
+    font-weight: 400;
+}
